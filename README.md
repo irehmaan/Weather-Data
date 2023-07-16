@@ -11,37 +11,37 @@ To set up the ESP32 Weather Station, follow these steps:
 ```shell
 git clone https://github.com/your-username/esp32-weather-station.git
  ```
-1.Connect the BMP180 and DHT11 sensors to the ESP32 board according to the wiring instructions provided in the "Hardware Setup" section below.
+1. Connect the BMP180 and DHT11 sensors to the ESP32 board according to the wiring instructions provided in the "Hardware Setup" section below.
 
-2.Install the necessary libraries for the ESP32 board, BMP180, and DHT11. Refer to the "Dependencies" section below for the required libraries and installation instructions.
+2. Install the necessary libraries for the ESP32 board, BMP180, and DHT11. Refer to the "Dependencies" section below for the required libraries and installation instructions.
 
-3.Create a Firebase project and set up the Realtime Database. Obtain the Firebase credentials (API key, project ID, etc.) required for authentication.
+3. Create a Firebase project and set up the Realtime Database. Obtain the Firebase credentials (API key, project ID, etc.) required for authentication.
 
-4.Update the configurations in the project with your Firebase credentials and other configuration settings. Make sure to set the correct pin numbers for the BMP180 and DHT11 sensors.
+4. Update the configurations in the project with your Firebase credentials and other configuration settings. Make sure to set the correct pin numbers for the BMP180 and DHT11 sensors.
 
-5.Compile and upload the code to your ESP32 board using the Arduino IDE or any other compatible development environment.
+5. Compile and upload the code to your ESP32 board using the Arduino IDE or any other compatible development environment.
 
 ## Usage
 
 Once the ESP32 Weather Station is set up and running, it will continuously monitor the environment and upload the sensor data to the Firebase RTDB. Follow these steps to access and analyze the data:
 
-1.Open the Firebase console and navigate to your project's Realtime Database.
+1. Open the Firebase console and navigate to your project's Realtime Database.
 
-2.Authenticate using the provided authentication method (e.g., email/password, Google Sign-In).
+2. Authenticate using the provided authentication method (e.g., email/password, Google Sign-In).
 
-3.Access the sensor data stored in the database. You can use Firebase's REST API or SDKs in various programming languages to retrieve and process the data.
+3. Access the sensor data stored in the database. You can use Firebase's REST API or SDKs in various programming languages to retrieve and process the data.
 
-4.Analyze the data to gain insights into the environmental conditions over time.
+4. Analyze the data to gain insights into the environmental conditions over time.
 
 ## Hardware Setup
 
 The hardware setup for the ESP32 Weather Station is as follows:
 
-Connect the BMP180 sensor to the ESP32's I2C interface.
-Connect the DHT11 sensor to a digital pin of the ESP32 board.
-Refer to the pin mapping in the config.h file to ensure the correct connections.
+1. Connect the BMP180 sensor to the ESP32's I2C interface.
+2. Connect the DHT11 sensor to a digital pin of the ESP32 board.
 
-**Dependencies**
+
+## **Dependencies**
 
 The ESP32 Weather Station relies on the following libraries:
 
