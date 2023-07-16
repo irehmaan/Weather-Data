@@ -6,7 +6,9 @@ Installation
 To set up the ESP32 Weather Station, follow these steps:
 
 1.Clone the repository: git clone https://github.com/your-username/esp32-weather-station.git
+
 2.Install the required libraries by running pip install -r requirements.txt.
+
 3.Connect the ESP32 board to your computer.
 4.Open the project in your preferred Arduino IDE.
 5.Configure the necessary credentials in the config.h file.
