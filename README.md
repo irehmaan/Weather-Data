@@ -52,3 +52,9 @@ The ESP32 Weather Station relies on the following libraries:
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## Contact
+If you have any questions or need further assistance, you can reach out to the project maintainer at:
+
+Name: Imdadul Rehmaan
+Email: rehmaankhan287@gmail.com
