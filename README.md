@@ -45,10 +45,10 @@ The hardware setup for the ESP32 Weather Station is as follows:
 
 The ESP32 Weather Station relies on the following libraries:
 
-Adafruit_BMP085 or Adafruit_BMP280 (for BMP180 sensor)
-DHT (for DHT11 sensor)
-FirebaseESP32 (for Firebase Realtime Database integration)
-To install these libraries, follow the instructions provided in their respective repositories.
+1. Adafruit_BMP085 or Adafruit_BMP280 (for BMP180 sensor)
+2. DHT (for DHT11 sensor)
+3. FirebaseESP32 (for Firebase Realtime Database integration)
+4. To install these libraries, follow the instructions provided in their respective repositories.
 
-Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
