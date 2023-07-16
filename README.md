@@ -21,7 +21,7 @@ git clone https://github.com/your-username/esp32-weather-station.git
 
 5.Compile and upload the code to your ESP32 board using the Arduino IDE or any other compatible development environment.
 
-##Usage
+## Usage
 
 Once the ESP32 Weather Station is set up and running, it will continuously monitor the environment and upload the sensor data to the Firebase RTDB. Follow these steps to access and analyze the data:
 
