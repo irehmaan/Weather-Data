@@ -57,4 +57,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 If you have any questions or need further assistance, you can reach out to the project maintainer at:
 
 Name: Imdadul Rehmaan
+
 Email: rehmaankhan287@gmail.com
