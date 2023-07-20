@@ -44,6 +44,7 @@ FirebaseConfig config;
 DHT dht(DHTPin, DHTTYPE);
 Adafruit_BMP085 bmp;
 
+String parentPath = "/WeatherData";
 unsigned long sendDataPrevMillis = 0;
 String uid;
 
@@ -215,7 +216,7 @@ void loop()
     {
       
 //      json.set("DHT11/Temperature", t);
-//      json.set("BMP180/Humidity", h);
+      json.set("BMP180/Humidity", h);
       json.set("BMP180/Pressure", Pressure);
       json.set("BMP180/Altitude",Altitude);
       json.set("BMP180/Temp",t);
